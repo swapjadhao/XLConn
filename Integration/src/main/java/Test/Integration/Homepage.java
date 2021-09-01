@@ -20,6 +20,7 @@ public class Homepage {
 		  WebDriver driver = new FirefoxDriver();
 		  //Swapnil
 		  //Swapnil
+		  //Swapnil
 		 driver.manage().window().maximize();
 	
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
