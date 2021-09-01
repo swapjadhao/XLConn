@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Dummyxml]">
+  <test thread-count="5" name="BrowserRun(failed)">
+    <classes>
+      <class name="BrowseTesting.CrossBrowsing">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- BrowseTesting.CrossBrowsing -->
+    </classes>
+  </test> <!-- BrowserRun(failed) -->
+</suite> <!-- Failed suite [Dummyxml] -->

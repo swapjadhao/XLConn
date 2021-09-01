@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+
+  <test name="Test_IE">
+  	<classes>
+		  	
+			<class name="BrowseTesting.CrossBrowsing"/>
+	</classes>
+  </test> 
+  
+  
+  <test name="Test_Chrome">
+  	<classes>
+		  	
+			<class name="BrowseTesting.CrossBrowsing"/>
+	</classes>
+  </test>
+  
+  
+  
+  <test name="Firefox_Test">
+  	<classes>
+		  	
+			<class name="BrowseTesting.CrossBrowsing"/>
+	</classes>
+  </test>
+  <!-- CrossBrowsing -->
+</suite> <!-- Suite -->
+
