@@ -41,6 +41,7 @@ public class Homepage {
 	 // AutoComplete
 	 
 	driver.findElement(By.id("autocomplete")).sendKeys("India");
+	driver.findElement(By.id("autocomplete")).sendKeys("India");
 	Thread.sleep(3000);
 	driver.findElement(By.id("autocomplete")).sendKeys(Keys.ARROW_DOWN);
 	driver.findElement(By.id("autocomplete")).sendKeys(Keys.ARROW_DOWN);
